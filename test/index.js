@@ -20,7 +20,7 @@ test('braid feed from file', function(t) {
 
     rss_braider.processFeed('sample_feed', 'rss', function(err, data){
         if (err) {
-            return console.error("***" + err);
+            return t.fail(err);
         }
         t.equal(data, expectedOutput.fileFeedOutput);
     });
