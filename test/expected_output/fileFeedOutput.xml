@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:ev="http://purl.org/rss/2.0/modules/event/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:kqed="http://www.kqed.org">
+    <channel>
+        <title><![CDATA[Test File Feed]]></title>
+        <description>This feed comes from a file</description>
+        <link>http://www.kqed.org</link>
+        <generator>rss-braider</generator>
+        <lastBuildDate>Wed, 31 Dec 2014 00:00:01 GMT</lastBuildDate>
+        <item>
+            <title><![CDATA[Rent Hike For Dance Mission Theater Has Artists Worried About Uncertain Future]]></title>
+            <description>&lt;p&gt;Stepping out of BART at 24th and Mission at most hours of the day, one is likely to hear the pulse of African drums, hip-hop or salsa emanating from the second-floor studios of Dance Brigade&apos;s Dance Mission Theater. But that music may not continue forever.&lt;/p&gt;
+&lt;p&gt;The performance space and dance school &lt;a href=&quot;http://ww2.kqed.org/news/2014/12/20/dance-mission-theater-rent-increase-worries-artists/&quot; target=&quot;_self&quot; id=&quot;rssmi_more&quot;&gt; ...read more&lt;/a&gt;</description>
+            <link>http://ww2.kqed.org/news/2014/12/20/dance-mission-theater-rent-increase-worries-artists/</link>
+            <guid isPermaLink="false">http://ww2.kqed.org/arts/2014/12/20/rent-hike-for-dance-mission-theater-has-artists-worried-about-uncertain-future/</guid>
+            <dc:creator><![CDATA[KQED Arts]]></dc:creator>
+            <pubDate>Sat, 20 Dec 2014 09:00:22 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Stepping out of BART at 24th and Mission at most hours of the day, one is likely to hear the pulse of African drums, hip-hop or salsa emanating from the second-floor studios of Dance Brigade&#8217;s Dance Mission Theater. But that music may not continue forever.</p>
+<p>The performance space and dance school <a href="http://ww2.kqed.org/news/2014/12/20/dance-mission-theater-rent-increase-worries-artists/" target="_self" id="rssmi_more"> &#8230;read more</a>
+<p>Source:: <a href="http://ww2.kqed.org/news/2014/12/20/dance-mission-theater-rent-increase-worries-artists/" target="_self" title="Rent Hike For Dance Mission Theater Has Artists Worried About Uncertain Future">Arts News</a></p>
+<div id='ctx-module' class='ctx-module-container ctx-clearfix'></div>]]></content:encoded>
+            <wfw:commentRss>http://ww2.kqed.org/arts/2014/12/20/rent-hike-for-dance-mission-theater-has-artists-worried-about-uncertain-future/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <media:thumbnail>http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/10232900-thumb.jpg</media:thumbnail>
+        </item>
+    </channel>
+</rss>
