@@ -20,7 +20,8 @@
 <div id='ctx-module' class='ctx-module-container ctx-clearfix'></div>]]></content:encoded>
             <wfw:commentRss>http://ww2.kqed.org/arts/2014/12/20/rent-hike-for-dance-mission-theater-has-artists-worried-about-uncertain-future/feed/</wfw:commentRss>
             <slash:comments>0</slash:comments>
-            <media:thumbnail>http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/10232900-thumb.jpg</media:thumbnail>
+            <media:thumbnail url="http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/10232900-thumb.jpg">
+            </media:thumbnail>
         </item>
     </channel>
 </rss>
