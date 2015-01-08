@@ -22,7 +22,7 @@
     "mockdate": "^1.0.1",
     "prova": "^2.1.1",
     "request": "^2.51.0",
-    "rss": "git+ssh://git@github.com:rv-kip/node-rss.git",
+    "rss": "git://github.com/rv-kip/node-rss.git",
     "tape": "^3.0.3"
   }
 }
