@@ -20,7 +20,6 @@ var feed = {
             "name"              : "sample_feed",
             "count"             : 1,
             "file_path"         : __dirname + "/sample_feed.xml",
-            "categories"        : ['something can go here']
         },
 
     ]

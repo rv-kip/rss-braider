@@ -21,7 +21,6 @@
     "include-folder": "^0.7.0",
     "lodash": "^2.4.1",
     "mockdate": "^1.0.1",
-    "prova": "^2.1.1",
     "request": "^2.51.0",
     "rss": "git://github.com/rv-kip/node-rss.git#603b25",
     "tape": "^3.0.3"

@@ -1,6 +1,6 @@
 // prova is a wrapper for tape
 // use npm run test:browser to run tests in a browser
-var test = require('prova'),
+var test = require('tape'),
     RssBraider = require('../index'),
     includeFolder = require('include-folder'),
     expectedOutput = includeFolder(__dirname + '/expected_output', /.*\.xml$/);
