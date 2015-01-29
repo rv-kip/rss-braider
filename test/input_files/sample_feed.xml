@@ -20,7 +20,8 @@
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
     <generator>http://wordpress.org/?v=4.0.1</generator>
-<atom:link rel="hub" href="http://pubsubhubbub.appspot.com"/><atom:link rel="hub" href="http://pubsubhubbub.superfeedr.com"/>   <item>
+<atom:link rel="hub" href="http://pubsubhubbub.appspot.com"/><atom:link rel="hub" href="http://pubsubhubbub.superfeedr.com"/>
+<item>
         <title>Top 10 Movie Moments of 2014</title>
         <link>http://ww2.kqed.org/arts/2014/12/26/top-10-movie-moments-of-2014/</link>
         <comments>http://ww2.kqed.org/arts/2014/12/26/top-10-movie-moments-of-2014/#comments</comments>
