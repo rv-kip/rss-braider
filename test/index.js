@@ -46,3 +46,45 @@ test('deduplicate feed from file', function(t) {
         t.equal(data, expectedOutput.fileFeedOutput);
     });
 });
+
+test('sort by date desc', function(t) {
+    t.plan(1);
+    var feeds = {};
+    feeds.sample_feed = require("./input_files/date_sort").feed;
+    var braider_options = {
+        feeds           : feeds,
+        indent          : "    ",
+        date_sort_order : "desc"
+    };
+    var rss_braider = RssBraider.createClient(braider_options);
+
+    rss_braider.processFeed('sample_feed', 'rss', function(err, data){
+        if (err) {
+            return t.fail(err);
+        }
+        // console.log(data);
+        t.equal(data, expectedOutput.dateDescOutput);
+    });
+});
+
+test('sort by date asc', function(t) {
+    t.plan(1);
+    var feeds = {};
+    feeds.sample_feed = require("./input_files/date_sort").feed;
+    var braider_options = {
+        feeds           : feeds,
+        indent          : "    ",
+        date_sort_order : "asc"
+    };
+    var rss_braider = RssBraider.createClient(braider_options);
+
+    rss_braider.processFeed('sample_feed', 'rss', function(err, data){
+        if (err) {
+            return t.fail(err);
+        }
+        // console.log(data);
+        t.equal(data, expectedOutput.dateAscOutput);
+    });
+});
+
+
