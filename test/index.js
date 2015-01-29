@@ -1,5 +1,3 @@
-// prova is a wrapper for tape
-// use npm run test:browser to run tests in a browser
 var test = require('tape'),
     RssBraider = require('../index'),
     includeFolder = require('include-folder'),
@@ -13,8 +11,9 @@ test('braid feed from file', function(t) {
     var feeds = {};
     feeds.sample_feed = require("./input_files/sample_feed").feed;
     var braider_options = {
-        feeds       : feeds,
-        indent      : "    "
+        feeds           : feeds,
+        indent          : "    ",
+        date_sort_order : "desc"
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -22,6 +21,70 @@ test('braid feed from file', function(t) {
         if (err) {
             return t.fail(err);
         }
+        // console.log(data);
+        t.equal(data, expectedOutput.fileFeedOutput);
+
+    });
+});
+
+test('deduplicate feed from file', function(t) {
+    t.plan(1);
+    var feeds = {};
+    feeds.sample_feed = require("./input_files/sample_feed_duplicates").feed;
+    var braider_options = {
+        feeds           : feeds,
+        indent          : "    ",
+        dedupe_fields   : ["title", "guid"]
+    };
+    var rss_braider = RssBraider.createClient(braider_options);
+
+    rss_braider.processFeed('sample_feed', 'rss', function(err, data){
+        if (err) {
+            return t.fail(err);
+        }
+        // console.log(data);
         t.equal(data, expectedOutput.fileFeedOutput);
     });
 });
+
+test('sort by date desc', function(t) {
+    t.plan(1);
+    var feeds = {};
+    feeds.sample_feed = require("./input_files/date_sort").feed;
+    var braider_options = {
+        feeds           : feeds,
+        indent          : "    ",
+        date_sort_order : "desc"
+    };
+    var rss_braider = RssBraider.createClient(braider_options);
+
+    rss_braider.processFeed('sample_feed', 'rss', function(err, data){
+        if (err) {
+            return t.fail(err);
+        }
+        // console.log(data);
+        t.equal(data, expectedOutput.dateDescOutput);
+    });
+});
+
+test('sort by date asc', function(t) {
+    t.plan(1);
+    var feeds = {};
+    feeds.sample_feed = require("./input_files/date_sort").feed;
+    var braider_options = {
+        feeds           : feeds,
+        indent          : "    ",
+        date_sort_order : "asc"
+    };
+    var rss_braider = RssBraider.createClient(braider_options);
+
+    rss_braider.processFeed('sample_feed', 'rss', function(err, data){
+        if (err) {
+            return t.fail(err);
+        }
+        // console.log(data);
+        t.equal(data, expectedOutput.dateAscOutput);
+    });
+});
+
+
