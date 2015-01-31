@@ -1,6 +1,6 @@
 var RssBraider = require('../index'),
     feeds = {};
-feeds.filefeed = require("./filefeed").feed;
+feeds.filefeed = require("./config/feed").feed;
 var braider_options = {
     feeds       : feeds,
     indent      : "    "
