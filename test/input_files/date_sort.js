@@ -2,6 +2,7 @@ var feed = {
     "feed_name"         : "test file feed",
     "default_count"     : 1,
     "no_cdata_fields"  : ['description'],
+    "plugins"           : ['kqed', 'content_encoded', 'wfw_slash_comments', 'add_media_thumbnail'],
     "meta" : {
         "title": "Test File Feed",
         "description": "This feed comes from a file",
