@@ -16,13 +16,13 @@
   "license": "ISC",
   "dependencies": {
     "async": "^0.9.0",
-    "bunyan": "^1.2.3",
+    "bunyan": "^1.3.3",
     "feedparser": "^0.19.2",
     "include-folder": "^0.7.0",
-    "lodash": "^2.4.1",
+    "lodash": "^3.1.0",
     "mockdate": "^1.0.1",
-    "request": "^2.51.0",
-    "rss": "git://github.com/rv-kip/node-rss.git#603b25",
-    "tape": "^3.0.3"
+    "request": "^2.53.0",
+    "rss": "git://github.com/rv-kip/node-rss.git#86f2a74",
+    "tape": "^3.5.0"
   }
 }
