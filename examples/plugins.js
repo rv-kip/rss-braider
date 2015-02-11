@@ -1,8 +1,10 @@
 var RssBraider = require('../index'),
-    feeds = {};
-feeds.filefeed = require("./filefeed").feed;
+    feed_obj = {};
+
+feed_obj.filefeed = require("./config/feed_with_plugins").feed;
+
 var braider_options = {
-    feeds       : feeds,
+    feeds       : feed_obj,
     indent      : "    "
 };
 var rss_braider = RssBraider.createClient(braider_options);

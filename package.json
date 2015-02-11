@@ -1,7 +1,7 @@
 {
   "name": "rss-braider",
-  "version": "0.0.1",
-  "description": "Braid or aggregate RSS feeds into a single RSS document",
+  "version": "0.1.0",
+  "description": "Braid/aggregate RSS feeds into a single RSS document. Configuration driven transformations.",
   "main": "index.js",
   "repository": "https://github.com/KQED/rss-braider",
   "scripts": {
@@ -12,17 +12,23 @@
     "braider",
     "combiner"
   ],
+  "bugs" : {
+    "url" : "http://github.com/KQED/rss-braider/issues",
+    "email" : "kgebhardt@kqed.org"
+},
   "author": "Kip Gebhardt <kgebhardt@kqed.org>",
   "license": "ISC",
   "dependencies": {
     "async": "^0.9.0",
-    "bunyan": "^1.2.3",
+    "bunyan": "^1.3.3",
     "feedparser": "^0.19.2",
     "include-folder": "^0.7.0",
-    "lodash": "^2.4.1",
-    "mockdate": "^1.0.1",
-    "request": "^2.51.0",
-    "rss": "git://github.com/rv-kip/node-rss.git#603b25",
-    "tape": "^3.0.3"
+    "lodash": "^3.1.0",
+    "request": "^2.53.0",
+    "rss": "git://github.com/rv-kip/node-rss.git#86f2a74"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0",
+    "mockdate": "^1.0.1"
   }
 }
