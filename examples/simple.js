@@ -1,9 +1,11 @@
 var RssBraider = require('../index'),
-    feeds = {};
-feeds.filefeed = require("./config/feed").feed;
+    feed_obj = {};
+
+feed_obj.filefeed = require("./config/feed").feed;
 var braider_options = {
-    feeds       : feeds,
-    indent      : "    "
+    feeds           : feed_obj,
+    indent          : "    ",
+    date_sort_order : "desc" // Newest first
 };
 var rss_braider = RssBraider.createClient(braider_options);
 
