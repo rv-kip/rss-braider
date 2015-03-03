@@ -3,7 +3,7 @@
     <channel>
         <title><![CDATA[Test File Feed]]></title>
         <description>This feed comes from a file</description>
-        <link>http://www.kqed.org</link>
+        <link>http://github.com/dylang/node-rss</link>
         <generator>rss-braider</generator>
         <lastBuildDate>Wed, 31 Dec 2014 00:00:01 GMT</lastBuildDate>
         <item>
@@ -13,6 +13,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10222283</guid>
             <dc:creator><![CDATA[Michael Fox]]></dc:creator>
             <pubDate>Fri, 26 Dec 2014 14:00:18 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<p>The year just ending wasn’t a terrible one for movies, but it will be remembered as depressingly uninspired. Earnest craftsmanship is the mantra of the moment, particularly in the risk-phobic American cinema. Consider the siege we’ve endured (especially since Labor Day) of serious, solid movies &#8212; including <em>Gone Girl</em>, <em>Foxcatcher</em>, <em>Exodus: Gods and Kings</em>, <em>American Sniper,</em> <em>The Imitation Game</em>, <em>Unbroken</em>, <em>A Most Violent Year</em> and <em>Still Alice &#8212; </em>that demanded our attention for long hours and repaid us with the briefest flashes of transcendent joy, insight or pathos.</p>
 <p>It was no easy task summoning memorable moments from the year’s morass, yet here in chronological order are the sequences that, for me, best captured the vitality and intelligent power that movies are capable of expressing.</p>
 <p><a href="http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/ida2.jpg"><img src="http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/ida2.jpg" alt="ida2" width="640" height="420" class="alignright size-full wp-image-10238620" /></a></p>
@@ -59,6 +61,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10238611</guid>
             <dc:creator><![CDATA[The Do List]]></dc:creator>
             <pubDate>Fri, 26 Dec 2014 02:00:10 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<aside class="aligncenter">
 <h4>Cy Musiker and David Wiegand share their picks for great events around the Bay Area this week.</h4>
 <p><!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
@@ -99,6 +103,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10238600</guid>
             <dc:creator><![CDATA[Siouxsie Oki]]></dc:creator>
             <pubDate>Wed, 24 Dec 2014 21:05:45 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<p>Above:<a href="http://ensemblemiknawooj.com/"> Ensemble Mik Nawooj</a> (EMN), led by  music director, composer/pianist JooWan Kim, reinterprets <a href="http://www.wutang-corp.com/artists/wu-tang-clan.php">Wu-Tang Clan</a>’s &#8220;C.R.E.A.M.&#8221; at  <a href="http://www.ybca.org/classick-hip-hop">YBCA&#8217;s <em>Clas/Sick Hip Hop: 1993 Edition.</em></a></p>
 <p><a href="http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/joowan.png"><img class="alignright size-full wp-image-10238602" src="http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/joowan.png" alt="joowan" width="683" height="352" /></a>Ensemble Mik Nawooj (EMN) is the brainchild of composer/pianist JooWan Kim, who introduces western-European classical techniques into hip-hop, rock, and pop. The group&#8217;s lineup includes traditional Pierrot ensemble instrumentation (flute, clarinet, violin, cello and piano) with a lyric soprano, deep funk drums, a heavy contrabass and two featured MCs. Kim is a classically trained composer who holds degrees from <a href="http://www.berklee.edu/">Berklee College of Music</a> and <a href="http://www.sfcm.edu/">San Francisco Conservatory of Music</a>.</p>
 <p><em>“Nobody has ever attempted anything like this on such a large scale, or with such sophistication.”</em> – NPR</p>
@@ -117,6 +123,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10238610</guid>
             <dc:creator><![CDATA[Siouxsie Oki]]></dc:creator>
             <pubDate>Wed, 24 Dec 2014 19:00:34 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<p>Above:<a href="http://kevchoice.wordpress.com/"> Kev Choice Ensemble</a> reinterprets Saafir&#8217;s &#8220;Light Sleeper&#8221; at  <a href="http://www.ybca.org/classick-hip-hop">YBCA&#8217;s <em>Clas/Sick Hip Hop: 1993 Edition.</em></a></p>
 <p>Oakland-based artist <a href="http://kevchoice.wordpress.com/">Kev Choice</a> is a pianist, MC, producer, bandleader, sideman, music historian and urban griot dedicated to cultural expression. Through his band Kev Choice Ensemble, he produces and performs his own material, including original jazz and classical compositions as well as classical, jazz, and funk-inspired hip-hop.</p>
 <p><a href="http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/kev.jpg"><img class="alignright size-full wp-image-10238616" src="http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/kev.jpg" alt="kev" width="908" height="510" /></a></p>
@@ -136,6 +144,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10218934</guid>
             <dc:creator><![CDATA[Brian Eder]]></dc:creator>
             <pubDate>Wed, 24 Dec 2014 14:00:19 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<p>The intent wasn’t always to create a million paintings. Speaking of his early art-making days with his brothers-in-arms back in high school, where the seeds of the idea were planted, artist Jason McHenry says, “We actually just used them like currency, kind of. We would make little mini paintings. That’s how it started&#8230; just amassing a bunch of these things, you know? We would all just push each other to make a new version of our own currency &#8212; like one dollar bills and five dollar bills.”</p>
 <p>McHenry and his best friend Chris Dyer are the only two that stuck to it over the years. Now the project has a name, <em>One Thousand Thousand</em>, and a mission to produce one million paintings. Although the impetus was simply to make as much art as possible surrounded by his friends, it eventually took McHenry down an often solitary path. Today he is reaching out to other artists to participate in the project to assure the goal is reached in his lifetime.</p>
 <p>“<em>One Thousand Thousand</em> is Christopher Dyer and Jason McHenry,” McHenry is quick to point out. “I honestly do more of the work, produce more pieces; he’s a senior executive at a company in Denver. We’re like partners in crime artistically. All the big projects that we’ve done, we’ve done together. So we push each other that way.”</p>

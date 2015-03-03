@@ -3,7 +3,7 @@
     <channel>
         <title><![CDATA[Test File Feed]]></title>
         <description>This feed comes from a file</description>
-        <link>http://www.kqed.org</link>
+        <link>http://github.com/dylang/node-rss</link>
         <generator>rss-braider</generator>
         <lastBuildDate>Wed, 31 Dec 2014 00:00:01 GMT</lastBuildDate>
         <item>
@@ -13,6 +13,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10222283</guid>
             <dc:creator><![CDATA[Michael Fox]]></dc:creator>
             <pubDate>Fri, 26 Dec 2014 14:00:18 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<p>The year just ending wasn’t a terrible one for movies, but it will be remembered as depressingly uninspired. Earnest craftsmanship is the mantra of the moment, particularly in the risk-phobic American cinema. Consider the siege we’ve endured (especially since Labor Day) of serious, solid movies &#8212; including <em>Gone Girl</em>, <em>Foxcatcher</em>, <em>Exodus: Gods and Kings</em>, <em>American Sniper,</em> <em>The Imitation Game</em>, <em>Unbroken</em>, <em>A Most Violent Year</em> and <em>Still Alice &#8212; </em>that demanded our attention for long hours and repaid us with the briefest flashes of transcendent joy, insight or pathos.</p>
 <p>It was no easy task summoning memorable moments from the year’s morass, yet here in chronological order are the sequences that, for me, best captured the vitality and intelligent power that movies are capable of expressing.</p>
 <p><a href="http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/ida2.jpg"><img src="http://ww2.kqed.org/arts/wp-content/uploads/sites/2/2014/12/ida2.jpg" alt="ida2" width="640" height="420" class="alignright size-full wp-image-10238620" /></a></p>

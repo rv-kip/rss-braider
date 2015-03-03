@@ -62,6 +62,7 @@ test('deduplicate feed from file', function(t) {
         if (err) {
             return t.fail(err);
         }
+        // console.log(data);
         t.equal(data, expectedOutput.fileFeedOutputPlugins);
     });
 });
