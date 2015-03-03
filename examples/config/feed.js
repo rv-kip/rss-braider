@@ -16,6 +16,11 @@ var feed = {
             "name"              : "NPR Health",
             "count"             : 1,
             "file_path"         : __dirname + "/../feed_xml/npr_health.xml",
+        },
+        {
+            "name"              : "NPR Sports",
+            "count"             : 1,
+            "feed_url"          : "http://www.npr.org/rss/rss.php?id=1055"
         }
     ]
 };
