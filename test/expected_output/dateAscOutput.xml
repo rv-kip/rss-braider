@@ -3,7 +3,7 @@
     <channel>
         <title><![CDATA[Test File Feed]]></title>
         <description>This feed comes from a file</description>
-        <link>http://www.kqed.org</link>
+        <link>http://github.com/dylang/node-rss</link>
         <generator>rss-braider</generator>
         <lastBuildDate>Wed, 31 Dec 2014 00:00:01 GMT</lastBuildDate>
         <item>
@@ -14,6 +14,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/2014/12/20/rent-hike-for-dance-mission-theater-has-artists-worried-about-uncertain-future/</guid>
             <dc:creator><![CDATA[KQED Arts]]></dc:creator>
             <pubDate>Sat, 20 Dec 2014 09:00:22 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<p>Stepping out of BART at 24th and Mission at most hours of the day, one is likely to hear the pulse of African drums, hip-hop or salsa emanating from the second-floor studios of Dance Brigade&#8217;s Dance Mission Theater. But that music may not continue forever.</p>
 <p>The performance space and dance school <a href="http://ww2.kqed.org/news/2014/12/20/dance-mission-theater-rent-increase-worries-artists/" target="_self" id="rssmi_more"> &#8230;read more</a>
 <p>Source:: <a href="http://ww2.kqed.org/news/2014/12/20/dance-mission-theater-rent-increase-worries-artists/" target="_self" title="Rent Hike For Dance Mission Theater Has Artists Worried About Uncertain Future">Arts News</a></p>
@@ -30,6 +32,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10220517</guid>
             <dc:creator><![CDATA[Sarah Hotchkiss]]></dc:creator>
             <pubDate>Sat, 20 Dec 2014 14:00:47 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<p>Until February 5, 2015, you can visit the main branch of the San Francisco Public Library and be momentarily transported through space and time to the early days of the Exploratorium via the life and work of Bob Miller, who died in 2007.</p>
 <p>The transportation isn&#8217;t entirely complete, especially when unavoidable elements of the library&#8217;s physical space interrupt the installation of vitrines, wall text and objects. But reading first-hand accounts by Miller&#8217;s colleagues of his various contributions to both the Exploratorium and scientific discovery, I wished I&#8217;d wandered the museum with him at any point in his twenty year tenure. Documentation and ephemera will never be as entertaining as the man himself, but <b>Light Walk: Bob Miller and the Exploratorium</b> presents one man&#8217;s creativity, playfulness and lasting impact on an institution, leaving the viewer itching for the simple tools of his trade: sunlight, paper and an irrepressible curiosity.</p>
 <p><b>Light Walk </b>is installed on the library’s fourth floor, rubbing elbows with the art, music and recreation collections. Four large cases present short anecdotes about Miller and related materials from the Exploratorium archives: photographs, magazine clippings, patent documents and museum publications. The bits and pieces coalesce into a picture of Miller &#8212; much like his <i>Light Walk</i>, an exploration of sunlight, shadow, refraction and perception builds on basic demonstrations to build a larger understanding of the natural world.</p>
@@ -56,6 +60,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10231062</guid>
             <dc:creator><![CDATA[KQED Arts]]></dc:creator>
             <pubDate>Sun, 21 Dec 2014 14:00:08 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<p>Tonight is midwinter, Yule, the solstice – the longest night.  During  winter&#8217;s dark depths,  San Franciscans with an urge to seek the light will find a wealth of illuminated art pieces blinking and blazing around town. Some, like <a href="http://www.metaphorm.org/portfolio/carusos-dream/" target="_blank">Caruso’s Dream</a>, are permanent installations. Others, like <a href="https://www.kickstarter.com/projects/foldhaus/blumen-lumen-interactive-sculpture-at-burning-man" target="_blank">Blumen Lumen</a> and a selection of illuminated works at the Exploratorium through Jan. 4, will be gone in a flash. Many, such as the <a href="http://flaminglotus.com/art/soma/" target="_blank">Flaming Lotus Girls&#8217; SOMA</a>, on Pier 14, come out of the Burning Man movement.  All feel appropriate to this  season, when we celebrate the sun&#8217;s return with fire.</p>
 <p>If you&#8217;re interested in visiting the city&#8217;s illuminated installations, the SF Travel Association <a href="http://www.illuminatesf.com/#/content/art-map" target="_blank">has compiled a map</a> and a list of <a href="http://www.illuminatesf.com/#/content/events" target="_blank">tours and other events</a>. (KQED critic Christian Frock rates the 16 works listed on the map as ranging “from meh to spectacular&#8221; &#8212; <a href="http://ww2.kqed.org/arts/2014/12/18/bigger-brighter-better-will-san-francisco-become-a-light-art-destination/" target="_blank">read her commentary</a>. ) A <a href="http://www.discoverystreettours.com/site/?page_id=747" target="_blank">free light art bike tour this Saturday</a>  will give cyclists a chance to shine.  Meanwhile, enjoy Peter Ruocco&#8217;s video exploration of these dazzling works.
 <div id='ctx-module' class='ctx-module-container ctx-clearfix'></div>]]></content:encoded>
@@ -71,6 +77,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10230592</guid>
             <dc:creator><![CDATA[Kevin L. Jones]]></dc:creator>
             <pubDate>Mon, 22 Dec 2014 14:00:32 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<p>In early November, the Yerba Buena Center for the Arts (YBCA) hosted <strong>Clas/sick Hip-Hop: 1993 Edition,</strong> a night of live music featuring over 20 MCs performing new takes on hop-hop hits from 1993, with live instrumentation arranged by two notable Bay Area composers—<a href="http://ensemblemiknawooj.com/" target="_blank">JooWan Kim</a> and <a href="http://www.ybca.org/artists/kev-choice" target="_blank">Kev Choice</a>. The year&#8217;s importance was twofold: not only did YBCA first open its doors in 1993, but hip-hop itself saw serious successes, both artistically and commercially, that led to the form becoming a part of the mainstream.</p>
 <p>Songs that were performed include Snoop Dogg&#8217;s &#8220;Gin And Juice,&#8221; Digable Planets&#8217; &#8220;Rebirth of Slick (Cool Like Dat),&#8221; and many others. Read a statement from the curator of the event, Marc Bamuthi Joseph, <a href="http://goo.gl/TIgUrh" target="_blank">here</a>. (Also, we asked Joseph to pick his Top 5 hip-hop songs from 1993, which you can read <a href="http://ww2.kqed.org/arts/2014/11/05/the-top-five-hip-hop-songs-from-1993-with-marc-bamuthi-joseph/" target="_blank">here</a>.)</p>
 <p>Enjoyed that? Watch this performance, by Ensemble Mik Nawooj, of the Wu-Tang Clan&#8217;s &#8220;C.R.E.A.M.&#8221; from that same night.</p>
@@ -88,6 +96,8 @@
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10189953</guid>
             <dc:creator><![CDATA[Michele Carlson]]></dc:creator>
             <pubDate>Tue, 23 Dec 2014 14:00:41 GMT</pubDate>
+            <kqed:fullname>A Sample Feed</kqed:fullname>
+            <kqed:shortname>sample_feed</kqed:shortname>
             <content:encoded><![CDATA[<p>Hands up, umbrellas out, hoodies on, fists raised &#8212; the icons of protest have long played a significant role in movements of social change and revolution. From flower power to Rosie the Riveter to the rainbow flag, icons have momentous social potency and live on as cultural currency that is exchanged, needed and protected sometimes long past the initial movements of their birth.</p>
 <p>Icons are sought after and are coming to be needed more and more. Perhaps it is easier to understand an image than it is to know the world, let alone how to change it.</p>
 <p>Uploading an icon to a profile picture or posting a response or article bleeds into thousands who are doing the same and suddenly an entire social media feed is parroting the same visual calls. Today, protest icons are disseminated rapidly and with such reach that, while the news is mired in arguing over factual evidence of whether or not Mike Brown’s hands were actually raised or not, the image has already hit the streets. There thousands of protesters begin to raise their hands and take photos with their hoodies pulled tight or make videos of themselves dumping buckets of ice over their heads.</p>

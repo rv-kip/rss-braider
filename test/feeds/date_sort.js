@@ -20,6 +20,7 @@ var feed = {
             "name"              : "sample_feed",
             "count"             : 5,
             "file_path"         : __dirname + "/../input_files/sample_feed.xml",
+            "fullname"          : "A Sample Feed"
         },
 
     ]
