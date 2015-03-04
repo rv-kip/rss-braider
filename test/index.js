@@ -32,9 +32,10 @@ test('braid feed from file with plugins', function(t) {
     var feeds = {};
     feeds.sample_feed = require("./feeds/sample_feed_plugins").feed;
     var braider_options = {
-        feeds           : feeds,
-        indent          : "    ",
-        date_sort_order : "desc"
+        feeds                   : feeds,
+        indent                  : "    ",
+        date_sort_order         : "desc",
+        plugins_directories     : [__dirname + '/../lib/plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -52,9 +53,10 @@ test('deduplicate feed from file', function(t) {
     var feeds = {};
     feeds.sample_feed = require("./feeds/sample_feed_duplicates").feed;
     var braider_options = {
-        feeds           : feeds,
-        indent          : "    ",
-        dedupe_fields   : ["title", "guid"]
+        feeds                   : feeds,
+        indent                  : "    ",
+        dedupe_fields           : ["title", "guid"],
+        plugins_directories     : [__dirname + '/../lib/plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -72,9 +74,10 @@ test('sort by date desc', function(t) {
     var feeds = {};
     feeds.sample_feed = require("./feeds/date_sort").feed;
     var braider_options = {
-        feeds           : feeds,
-        indent          : "    ",
-        date_sort_order : "desc"
+        feeds                   : feeds,
+        indent                  : "    ",
+        date_sort_order         : "desc",
+        plugins_directories     : [__dirname + '/../lib/plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -92,9 +95,10 @@ test('sort by date asc', function(t) {
     var feeds = {};
     feeds.sample_feed = require("./feeds/date_sort").feed;
     var braider_options = {
-        feeds           : feeds,
-        indent          : "    ",
-        date_sort_order : "asc"
+        feeds                   : feeds,
+        indent                  : "    ",
+        date_sort_order         : "asc",
+        plugins_directories     : [__dirname + '/../lib/plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 

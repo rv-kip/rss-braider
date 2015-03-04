@@ -1,7 +1,7 @@
 var feed = {
-    "feed_name"         : "feed",
-    "default_count"     : 1,
-    "no_cdata_fields"  : [],
+    "feed_name"             : "feed",
+    "default_count"         : 1,
+    "no_cdata_fields"       : [],
     "meta" : {
         "title": "NPR Braided Feed",
         "description": "This is a test of two NPR sources from file"
