@@ -35,7 +35,7 @@ test('braid feed from file with plugins', function(t) {
         feeds                   : feeds,
         indent                  : "    ",
         date_sort_order         : "desc",
-        plugins_directories     : [__dirname + '/../lib/plugins/']
+        plugins_directories     : [__dirname + '/../lib/example_plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -56,7 +56,7 @@ test('deduplicate feed from file', function(t) {
         feeds                   : feeds,
         indent                  : "    ",
         dedupe_fields           : ["title", "guid"],
-        plugins_directories     : [__dirname + '/../lib/plugins/']
+        plugins_directories     : [__dirname + '/../lib/example_plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -77,7 +77,7 @@ test('sort by date desc', function(t) {
         feeds                   : feeds,
         indent                  : "    ",
         date_sort_order         : "desc",
-        plugins_directories     : [__dirname + '/../lib/plugins/']
+        plugins_directories     : [__dirname + '/../lib/example_plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -98,7 +98,7 @@ test('sort by date asc', function(t) {
         feeds                   : feeds,
         indent                  : "    ",
         date_sort_order         : "asc",
-        plugins_directories     : [__dirname + '/../lib/plugins/']
+        plugins_directories     : [__dirname + '/../lib/example_plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
