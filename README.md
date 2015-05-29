@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/KQED/rss-braider.svg?branch=master)](https://travis-ci.org/KQED/rss-braider)
 
 ## Summary
-Braid/aggregate one or more RSS feeds (file or url) into a single feed (RSS or JSON output). Process resulting feed through specified plugins.
+Braid/aggregate one or more RSS feeds (file or url) into a single feed (RSS or JSON output). Process resulting feed through specified plugins. Automatic deduplication
 
 ## Installation
 ```
@@ -13,30 +13,50 @@ npm install rss-braider
 ## Examples
 ```
 $ cd examples
-$ node simple.js (combines 3 sources)
+$ node simple.js  (combines 3 sources)
 $ node plugins.js (combines 3 sources and runs a transformation plugin)
 ```
 ## Code Example
 ```js
 var RssBraider = require('rss-braider'),
-    feed_obj = {};
+    feeds = {};
 
-// Build feed options
-feed_obj.filefeed = require("./config/feed").feed;
+// Pull feeds from config files:
+//      feeds.simple_test_feed = require("./config/feed").feed;
+// Or define in-line
+feeds.simple_test_feed = {
+    "feed_name"             : "feed",
+    "default_count"         : 1,
+    "no_cdata_fields"       : [], // Don't wrap these fields in CDATA tags
+    "meta" : {
+        "title": "NPR Braided Feed",
+        "description": "This is a test of two NPR"
+    },
+    "sources" : [
+        {
+            "name"              : "NPR Headlines",
+            "count"             : 2,
+            "feed_url"          : "http://www.npr.org/rss/rss.php?id=1001",
+        },
+        {
+            "name"              : "NPR Sports",
+            "count"             : 2,
+            "feed_url"          : "http://www.npr.org/rss/rss.php?id=1055"
+        }
+    ]
+};
 var braider_options = {
-    feeds           : feed_obj,
+    feeds           : feeds,
     indent          : "    ",
     date_sort_order : "desc" // Newest first
 };
 var rss_braider = RssBraider.createClient(braider_options);
 
-// braid 'filefeed' sources together and output in RSS format
-rss_braider.processFeed('filefeed', 'rss', function(err, data){
+// Output braided feed as rss. use 'json' for JSON output.
+rss_braider.processFeed('simple_test_feed', 'rss', function(err, data){
     if (err) {
         return console.log(err);
     }
     console.log(data);
 });
 ```
-
-

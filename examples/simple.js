@@ -1,15 +1,38 @@
 var RssBraider = require('../index'),
-    feed_obj = {};
+    feeds = {};
 
-feed_obj.filefeed = require("./config/feed").feed;
+// Pull feeds from config files:
+//      feeds.simple_test_feed = require("./config/feed").feed;
+// Or define in-line
+feeds.simple_test_feed = {
+    "feed_name"             : "feed",
+    "default_count"         : 1,
+    "no_cdata_fields"       : [], // Don't wrap these fields in CDATA tags
+    "meta" : {
+        "title": "NPR Braided Feed",
+        "description": "This is a test of two NPR"
+    },
+    "sources" : [
+        {
+            "name"              : "NPR Headlines",
+            "count"             : 2,
+            "feed_url"          : "http://www.npr.org/rss/rss.php?id=1001",
+        },
+        {
+            "name"              : "NPR Sports",
+            "count"             : 2,
+            "feed_url"          : "http://www.npr.org/rss/rss.php?id=1055"
+        }
+    ]
+};
 var braider_options = {
-    feeds           : feed_obj,
+    feeds           : feeds,
     indent          : "    ",
     date_sort_order : "desc" // Newest first
 };
 var rss_braider = RssBraider.createClient(braider_options);
 
-rss_braider.processFeed('filefeed', 'rss', function(err, data){
+rss_braider.processFeed('simple_test_feed', 'rss', function(err, data){
     if (err) {
         return console.log(err);
     }
