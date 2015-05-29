@@ -1,6 +1,6 @@
 {
   "name": "rss-braider",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Braid/aggregate RSS feeds into a single RSS (or JSON) document. Process resulting feed through specified plugins.",
   "main": "index.js",
   "repository": "https://github.com/KQED/rss-braider",
