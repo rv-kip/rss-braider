@@ -111,4 +111,25 @@ test('sort by date asc', function(t) {
     });
 });
 
+test('filter all articles out using plugin', function(t) {
+    t.plan(1);
+    var feeds = {};
+    feeds.sample_feed = require("./feeds/no_elements").feed;
+    var braider_options = {
+        feeds                   : feeds,
+        indent                  : "    ",
+        date_sort_order         : "asc",
+        plugins_directories     : [__dirname + '/../lib/example_plugins/']
+    };
+    var rss_braider = RssBraider.createClient(braider_options);
+
+    rss_braider.processFeed('sample_feed', 'rss', function(err, data){
+        if (err) {
+            return t.fail(err);
+        }
+        console.log(data);
+        t.equal(data, expectedOutput.emptyFeed);
+    });
+});
+
 

@@ -41,7 +41,7 @@
     "rss": "git://github.com/rv-kip/node-rss.git#8d1420"
   },
   "devDependencies": {
-    "tape": "^4.0.0",
-    "mockdate": "^1.0.3"
+    "mockdate": "^1.0.3",
+    "tape": "^4.0.0"
   }
 }
