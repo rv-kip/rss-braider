@@ -122,6 +122,7 @@ test('filter all articles out using plugin', function(t) {
         plugins_directories     : [__dirname + '/../lib/example_plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
+    rss_braider.logger.level('info');
 
     rss_braider.processFeed('sample_feed', 'rss', function(err, data){
         if (err) {
