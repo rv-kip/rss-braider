@@ -65,7 +65,9 @@ rss_braider.processFeed('simple_test_feed', 'rss', function(err, data){
 });
 ```
 ## Plugins
-Plugins provide custom manipulation and filtering of RSS items/articles. See `lib/example_plugins` for examples. A plugin operates by modifying the itemOptions object or by returning `null` which will exclude the `item` (article) from the resulting feed.
+Plugins provide custom manipulation and filtering of RSS items/articles. See `examples/plugins` for examples.
+
+A plugin operates by modifying the itemOptions object or by returning `null` which will exclude the `item` (article) from the resulting feed (See `examples/plugins/filter_out_all_articles.js`).
 
 ### Plugin Example
 This plugin will capitalize the article title for all articles
@@ -75,7 +77,6 @@ module.exports = function (item, itemOptions, source) {
         return;
     }
 
-
     if (itemOptions.title) {
         itemOptions.title = itemOptions.title.toUpperCase();
     }
@@ -84,4 +85,11 @@ module.exports = function (item, itemOptions, source) {
 };
 ```
 
-
+The plugin is registered with the feed in the feed config .js file and are run in order.
+```js
+var feed = {
+    "feed_name"         : "feed with plugins",
+    "default_count"     : 1,
+    "plugins"           : ['capitalize_title', 'plugin_template'],
+...
+```
