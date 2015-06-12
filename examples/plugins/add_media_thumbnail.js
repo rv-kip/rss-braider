@@ -6,10 +6,6 @@
 //      'media:thumbnail'
 var _ = require('lodash');
 module.exports = function (item, itemOptions, source) {
-    if (!item || !itemOptions) {
-        return;
-    }
-
     var thumbnail;
     if (item['media:thumbnail'] && item['media:thumbnail']['#']) {
         thumbnail = {
@@ -51,4 +47,5 @@ module.exports = function (item, itemOptions, source) {
             }
         }
     }
+    return itemOptions;
 };

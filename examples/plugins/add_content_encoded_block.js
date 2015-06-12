@@ -4,9 +4,6 @@
 //      <![CDATA[<p>Stewart let the news slip during a taping of his show today.]]>
 //  </content:encoded>
 module.exports = function (item, itemOptions, source) {
-    if (!item || !itemOptions) {
-        return;
-    }
     if (item["content:encoded"] && item["content:encoded"]["#"]){
         var content_encoded = item["content:encoded"]["#"];
         itemOptions.custom_elements.push(
@@ -17,4 +14,5 @@ module.exports = function (item, itemOptions, source) {
             }
         );
     }
+    return itemOptions;
 };

@@ -28,9 +28,13 @@ feeds.simple_test_feed = {
 var braider_options = {
     feeds           : feeds,
     indent          : "    ",
-    date_sort_order : "desc" // Newest first
+    date_sort_order : "desc", // Newest first
+    log_level       : 'debug'
 };
 var rss_braider = RssBraider.createClient(braider_options);
+
+// Set logging level (debug, info, warn, err, off)
+rss_braider.logger.level('off');
 
 rss_braider.processFeed('simple_test_feed', 'rss', function(err, data){
     if (err) {

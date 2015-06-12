@@ -16,11 +16,10 @@ var feed = {
     },
     "sources" : [
         {
-            "name"              : "sample_feed",
+            "name"              : "sample_source",
             "count"             : 1,
             "file_path"         : __dirname + "/../input_files/sample_feed.xml",
-        },
-
+        }
     ]
 };
 exports.feed = feed;

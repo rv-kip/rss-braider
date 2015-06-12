@@ -1,8 +1,5 @@
 // define kqed source
 module.exports = function (item, itemOptions, source) {
-    if (!item || !itemOptions || !source) {
-        return;
-    }
     // Look for kqed namespace elements in source and add as custom elements for item
     // Ex:
     // <kqed:fullname>The California Report</kqed:fullname>
@@ -36,4 +33,5 @@ module.exports = function (item, itemOptions, source) {
             { 'kqed:feed_url': item.feed_url }
         );
     }
+    return itemOptions;
 };

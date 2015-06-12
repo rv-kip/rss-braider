@@ -6,7 +6,8 @@ feed_obj.filefeed = require("./config/feed_with_plugins").feed;
 var braider_options = {
     feeds                   : feed_obj,
     indent                  : "    ",
-    plugins_directories     : [__dirname + "/plugins/"]
+    plugins_directories     : [__dirname + "/plugins/"],
+    log_level               : 'debug'
 };
 var rss_braider = RssBraider.createClient(braider_options);
 
