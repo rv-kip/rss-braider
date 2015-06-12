@@ -3,6 +3,6 @@ module.exports = function (item, itemOptions, source) {
         return;
     }
 
-    // This plugin removes all items by returning null instead of the processed itemOptions
-    return null;
+    // This plugin removes all items by returning -1 instead of the processed itemOptions
+    return -1;
 };

@@ -14,10 +14,6 @@
 // <itunes:subtitle>KQED Public Media for Northern CA</itunes:subtitle>
 
 module.exports = function (item, itemOptions, source) {
-    if (!item || !itemOptions) {
-        return;
-    }
-
     var pass_through_arr = ['itunes:summary', 'itunes:author', 'itunes:explicit', ];
     pass_through_arr.forEach(function(element){
         if (item[element] && item[element]['#']) {
