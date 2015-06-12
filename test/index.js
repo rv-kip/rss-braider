@@ -59,6 +59,7 @@ test('de-duplicate feed', function(t) {
         plugins_directories     : [__dirname + '/../examples/plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
+    rss_braider.logger.level('info');
 
     rss_braider.processFeed('sample_feed', 'rss', function(err, data){
         if (err) {
@@ -132,7 +133,6 @@ test('filter all articles out using plugin', function(t) {
         t.equal(data, expectedOutput.emptyFeed);
     });
 });
-
 
 test("Don't break when a filter fails and returns null", function(t) {
     t.plan(1);
