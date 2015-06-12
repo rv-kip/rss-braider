@@ -2,7 +2,7 @@ var feed = {
     "feed_name"         : "feed with plugins",
     "default_count"     : 1,
     "no_cdata_fields"   : [],
-    "plugins"           : ['content_encoded'],
+    "plugins"           : ['capitalize_title', 'plugin_template'],
     "meta" : {
         "title": "NPR Braided Feed",
         "description": "This is a test of two NPR sources from file. Plugins are applied."

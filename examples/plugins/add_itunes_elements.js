@@ -1,27 +1,5 @@
-module.exports = function (item, itemOptions, source) {
-    if (!item || !itemOptions) {
-        return;
-    }
-
-     // 'itunes:summary':
-     //  { '@': {},
-     //    '#': 'Let KQED Arts help you find the best things to see, do, and explore in San Francisco, Oakland, San Jose, and the surrounding areas.' },
-     // 'itunes:author': { '@': {}, '#': 'KQED Arts' },
-     // 'itunes:explicit': { '@': {}, '#': 'no' },
-     // 'itunes:image': { '@': [Object] },
-     // 'itunes:owner': { '@': {}, 'itunes:name': [Object], 'itunes:email': [Object] },
-     // 'rss:managingeditor':
-     //  { '@': {},
-     //    '#': 'ondemand@kqed.org (KQED Arts)',
-     //    name: 'KQED Arts',
-     //    email: 'ondemand@kqed.org' },
-     // 'rss:copyright':
-     //  { '@': {},
-     //    '#': 'Copyright © 2015 KQED Inc. All Rights Reserved.' },
-     // 'itunes:subtitle': { '@': {}, '#': 'KQED Public Media for Northern CA' },
-     // 'rss:image': { '@': {}, title: [Object], url: [Object], link: [Object] },
-     // 'itunes:category': [ [Object], [Object], [Object] ],
-
+// Pass through itunes content...
+//
 // <itunes:summary>
 // Let KQED Arts help you find the best things to see, do, and explore in San Francisco, Oakland, San Jose, and the surrounding areas.
 // </itunes:summary>
@@ -33,28 +11,13 @@ module.exports = function (item, itemOptions, source) {
 // <itunes:email>ondemand@kqed.org</itunes:email>
 // </itunes:owner>
 // <managingEditor>ondemand@kqed.org (KQED Arts)</managingEditor>
-// <copyright>Copyright © 2015 KQED Inc. All Rights Reserved.</copyright>
 // <itunes:subtitle>KQED Public Media for Northern CA</itunes:subtitle>
 
-// *link
-// *comments
-// pubDate
-// *dc:creator
-// *category
-// guid
-// description
-// *content:encoded
-// *wfw:commentRss
-// *slash:comments
-// enclosure
-// itunes:subtitle
-// itunes:summary
-// itunes:author
-// itunes:explicit
-// *media:content (multiple)
-// *media:thumbnail
+module.exports = function (item, itemOptions, source) {
+    if (!item || !itemOptions) {
+        return;
+    }
 
-    // Pass through itunes content
     var pass_through_arr = ['itunes:summary', 'itunes:author', 'itunes:explicit', ];
     pass_through_arr.forEach(function(element){
         if (item[element] && item[element]['#']) {

@@ -35,7 +35,7 @@ test('generate feed and process through plugins', function(t) {
         feeds                   : feeds,
         indent                  : "    ",
         date_sort_order         : "desc",
-        plugins_directories     : [__dirname + '/../lib/example_plugins/']
+        plugins_directories     : [__dirname + '/../examples/plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -56,7 +56,7 @@ test('de-duplicate feed', function(t) {
         feeds                   : feeds,
         indent                  : "    ",
         dedupe_fields           : ["title", "guid"],
-        plugins_directories     : [__dirname + '/../lib/example_plugins/']
+        plugins_directories     : [__dirname + '/../examples/plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -77,7 +77,7 @@ test('sort feed articles by date descending', function(t) {
         feeds                   : feeds,
         indent                  : "    ",
         date_sort_order         : "desc",
-        plugins_directories     : [__dirname + '/../lib/example_plugins/']
+        plugins_directories     : [__dirname + '/../examples/plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -98,7 +98,7 @@ test('sort feed articles by date ascending', function(t) {
         feeds                   : feeds,
         indent                  : "    ",
         date_sort_order         : "asc",
-        plugins_directories     : [__dirname + '/../lib/example_plugins/']
+        plugins_directories     : [__dirname + '/../examples/plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
 
@@ -119,7 +119,7 @@ test('filter all articles out using plugin', function(t) {
         feeds                   : feeds,
         indent                  : "    ",
         date_sort_order         : "asc",
-        plugins_directories     : [__dirname + '/../lib/example_plugins/']
+        plugins_directories     : [__dirname + '/../examples/plugins/']
     };
     var rss_braider = RssBraider.createClient(braider_options);
     rss_braider.logger.level('info');

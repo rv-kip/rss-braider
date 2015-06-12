@@ -1,6 +1,6 @@
 var feed = {
     "feed_name"         : "no_elements",
-    "plugins"           : ['filter_all_articles'], // No articles make it through
+    "plugins"           : ['filter_out_all_articles'], // No articles make it through
     "meta" : {
         "title"         : "A Feed with no elements",
         "description"   : "This feed will have no elements as a result of the filter_all_articles plugin. Used for unit tests.",
