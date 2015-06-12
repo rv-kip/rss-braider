@@ -67,7 +67,7 @@ rss_braider.processFeed('simple_test_feed', 'rss', function(err, data){
 ## Plugins
 Plugins provide custom manipulation and filtering of RSS items/articles. See `examples/plugins` for examples.
 
-A plugin operates by modifying the `itemOptions` object or by returning `null` which will exclude the `item` (article) from the resulting feed (See `examples/plugins/filter_out_all_articles.js`). 
+A plugin operates by modifying the `itemOptions` object or by returning `null` which will exclude the `item` (article) from the resulting feed (See `examples/plugins/filter_out_all_articles.js`).
 
 The `itemsOptions` object gets passed to `node-rss` to generate the RSS feeds, so read the documentation on that module and its use of custom namespaces. (https://github.com/dylang/node-rss)
 
@@ -95,3 +95,8 @@ var feed = {
     "plugins"           : ['capitalize_title', 'plugin_template'],
 ...
 ```
+
+## Release Notes
+### 1.0.0
+Changed plugin architecture to allow filtering out of article/items by returning `-1` instead of a modified `itemsOptions` object. This is a breaking change as it will require existing plugins to return `itemsOptions` instead of modifying the reference. See `examples/plugins`.
+
