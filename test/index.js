@@ -23,7 +23,6 @@ test('generate feed. No plugins', function(t) {
         }
         // console.log(data);
         t.equal(data, expectedOutput.fileFeedOutput);
-
     });
 });
 

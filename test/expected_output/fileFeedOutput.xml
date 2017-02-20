@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:ev="http://purl.org/rss/2.0/modules/event/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:ev="http://purl.org/rss/2.0/modules/event/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/">
     <channel>
         <title><![CDATA[Test File Feed]]></title>
-        <description>This feed comes from a file</description>
+        <description><![CDATA[This feed comes from a file]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>rss-braider</generator>
         <lastBuildDate>Wed, 31 Dec 2014 00:00:01 GMT</lastBuildDate>
         <item>
             <title><![CDATA[Top 10 Movie Moments of 2014]]></title>
-            <description>A handful of scenes resonate from a mediocre year for film.</description>
+            <description><![CDATA[A handful of scenes resonate from a mediocre year for film.]]></description>
             <link>http://ww2.kqed.org/arts/2014/12/26/top-10-movie-moments-of-2014/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10222283</guid>
             <dc:creator><![CDATA[Michael Fox]]></dc:creator>

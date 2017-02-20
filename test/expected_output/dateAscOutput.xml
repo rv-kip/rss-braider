@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:ev="http://purl.org/rss/2.0/modules/event/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:ev="http://purl.org/rss/2.0/modules/event/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/">
     <channel>
         <title><![CDATA[Test File Feed]]></title>
-        <description>This feed comes from a file</description>
+        <description><![CDATA[This feed comes from a file]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>rss-braider</generator>
         <lastBuildDate>Wed, 31 Dec 2014 00:00:01 GMT</lastBuildDate>
         <item>
             <title><![CDATA[Rent Hike For Dance Mission Theater Has Artists Worried About Uncertain Future]]></title>
-            <description>&lt;p&gt;Stepping out of BART at 24th and Mission at most hours of the day, one is likely to hear the pulse of African drums, hip-hop or salsa emanating from the second-floor studios of Dance Brigade&apos;s Dance Mission Theater. But that music may not continue forever.&lt;/p&gt;
-&lt;p&gt;The performance space and dance school &lt;a href=&quot;http://ww2.kqed.org/news/2014/12/20/dance-mission-theater-rent-increase-worries-artists/&quot; target=&quot;_self&quot; id=&quot;rssmi_more&quot;&gt; ...read more&lt;/a&gt;</description>
+            <description><![CDATA[<p>Stepping out of BART at 24th and Mission at most hours of the day, one is likely to hear the pulse of African drums, hip-hop or salsa emanating from the second-floor studios of Dance Brigade's Dance Mission Theater. But that music may not continue forever.</p>
+<p>The performance space and dance school <a href="http://ww2.kqed.org/news/2014/12/20/dance-mission-theater-rent-increase-worries-artists/" target="_self" id="rssmi_more"> ...read more</a>]]></description>
             <link>http://ww2.kqed.org/news/2014/12/20/dance-mission-theater-rent-increase-worries-artists/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/2014/12/20/rent-hike-for-dance-mission-theater-has-artists-worried-about-uncertain-future/</guid>
             <dc:creator><![CDATA[KQED Arts]]></dc:creator>
@@ -27,7 +26,7 @@
         </item>
         <item>
             <title><![CDATA[Bob Miller: Teasing Science Lessons from Everyday Phenomena]]></title>
-            <description>Until February 5, 2015, you can visit the main branch of the San Francisco Public Library and be momentarily transported through space and time to the early days of the Exploratorium via the life and work of Bob Miller, who died in 2007.</description>
+            <description><![CDATA[Until February 5, 2015, you can visit the main branch of the San Francisco Public Library and be momentarily transported through space and time to the early days of the Exploratorium via the life and work of Bob Miller, who died in 2007.]]></description>
             <link>http://ww2.kqed.org/arts/2014/12/20/bob-miller-teasing-science-lessons-from-everyday-phenomena/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10220517</guid>
             <dc:creator><![CDATA[Sarah Hotchkiss]]></dc:creator>
@@ -55,7 +54,7 @@
         </item>
         <item>
             <title><![CDATA[Light Art Brings Holiday Glow to Darkest Nights]]></title>
-            <description>In the dark of winter, San Franciscans with an urge to celebrate the light can visit a new wealth of illuminated art installations. This video tour offers a preview of some of the more dazzling works.</description>
+            <description><![CDATA[In the dark of winter, San Franciscans with an urge to celebrate the light can visit a new wealth of illuminated art installations. This video tour offers a preview of some of the more dazzling works.]]></description>
             <link>http://ww2.kqed.org/arts/2014/12/21/on-darkest-nights-illuminated-art-brings-holiday-glow/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10231062</guid>
             <dc:creator><![CDATA[KQED Arts]]></dc:creator>
@@ -72,7 +71,7 @@
         </item>
         <item>
             <title><![CDATA[93 ‘Til Infinity: Watch Bay Area Musicians Remix Classic ’90s Hip-Hop]]></title>
-            <description>One night back in November, the YBCA took a trip to 1993 to celebrate a groundbreaking year for hip hop.</description>
+            <description><![CDATA[One night back in November, the YBCA took a trip to 1993 to celebrate a groundbreaking year for hip hop.]]></description>
             <link>http://ww2.kqed.org/arts/2014/12/22/93-til-infinity-watch-bay-area-musicians-remix-classic-90s-hip-hop/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10230592</guid>
             <dc:creator><![CDATA[Kevin L. Jones]]></dc:creator>
@@ -91,7 +90,7 @@
         </item>
         <item>
             <title><![CDATA[Protest Icons: Not Just for Show]]></title>
-            <description>Hands up, umbrellas out, hoodies on, fists raised -- the icons of protest have long played a significant role in movements of social change and revolution. Some of the most potent protest icons of 2014 appeared in just the last four months of the year.</description>
+            <description><![CDATA[Hands up, umbrellas out, hoodies on, fists raised -- the icons of protest have long played a significant role in movements of social change and revolution. Some of the most potent protest icons of 2014 appeared in just the last four months of the year.]]></description>
             <link>http://ww2.kqed.org/arts/2014/12/23/protest-icons-not-just-for-show/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10189953</guid>
             <dc:creator><![CDATA[Michele Carlson]]></dc:creator>

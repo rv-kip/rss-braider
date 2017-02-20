@@ -38,7 +38,7 @@
     "include-folder": "^1.0.0",
     "lodash": "^4.17.4",
     "request": "^2.57.0",
-    "rss": "git://github.com/rv-kip/node-rss.git#8d1420"
+    "rss": "1.2.0"
   },
   "devDependencies": {
     "mockdate": "^2.0.1",

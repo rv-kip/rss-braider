@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:ev="http://purl.org/rss/2.0/modules/event/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:ev="http://purl.org/rss/2.0/modules/event/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/">
     <channel>
         <title><![CDATA[Test File Feed]]></title>
-        <description>This feed comes from a file</description>
+        <description><![CDATA[This feed comes from a file]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>rss-braider</generator>
         <lastBuildDate>Wed, 31 Dec 2014 00:00:01 GMT</lastBuildDate>
         <item>
             <title><![CDATA[Top 10 Movie Moments of 2014]]></title>
-            <description>A handful of scenes resonate from a mediocre year for film.</description>
+            <description><![CDATA[A handful of scenes resonate from a mediocre year for film.]]></description>
             <link>http://ww2.kqed.org/arts/2014/12/26/top-10-movie-moments-of-2014/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10222283</guid>
             <dc:creator><![CDATA[Michael Fox]]></dc:creator>
@@ -56,7 +55,7 @@
         </item>
         <item>
             <title><![CDATA[Radio Show: Rockin’ Roots to Radical Rauschenberg]]></title>
-            <description>Cy Musiker and David Wiegand share their picks for great events around the Bay Area this week.</description>
+            <description><![CDATA[Cy Musiker and David Wiegand share their picks for great events around the Bay Area this week.]]></description>
             <link>http://ww2.kqed.org/arts/2014/12/25/radio-show-rockin-roots-to-radical-rauschenberg/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10238611</guid>
             <dc:creator><![CDATA[The Do List]]></dc:creator>
@@ -98,7 +97,7 @@
         </item>
         <item>
             <title><![CDATA[Watch a Hip Hop Orchestra Perform Wu-Tang Clan’s “C.R.E.A.M”]]></title>
-            <description>Above: Ensemble Mik Nawooj (EMN), led by  music director, composer/pianist JooWan Kim, reinterprets Wu-Tang Clan’s &amp;#8220;C.R.E.A.M.&amp;#8221; at  YBCA&amp;#8217;s Clas/Sick Hip Hop: 1993 Edition. Ensemble Mik Nawooj (EMN) is the brainchild of composer/pianist JooWan Kim, who introduces western-European classical techniques into hip-hop, rock, and pop. The group&amp;#8217;s lineup includes traditional Pierrot ensemble instrumentation (flute, clarinet, violin, cello and piano) with [&amp;#8230;]</description>
+            <description><![CDATA[Above: Ensemble Mik Nawooj (EMN), led by  music director, composer/pianist JooWan Kim, reinterprets Wu-Tang Clan’s &#8220;C.R.E.A.M.&#8221; at  YBCA&#8217;s Clas/Sick Hip Hop: 1993 Edition. Ensemble Mik Nawooj (EMN) is the brainchild of composer/pianist JooWan Kim, who introduces western-European classical techniques into hip-hop, rock, and pop. The group&#8217;s lineup includes traditional Pierrot ensemble instrumentation (flute, clarinet, violin, cello and piano) with [&#8230;]]]></description>
             <link>http://ww2.kqed.org/arts/2014/12/24/a-hip-hop-orchestra-does-wu-tang-clans-c-r-e-a-m/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10238600</guid>
             <dc:creator><![CDATA[Siouxsie Oki]]></dc:creator>
@@ -118,7 +117,7 @@
         </item>
         <item>
             <title><![CDATA[Watch a Hip-Hop Funk Big Band Pay Homage to Saafir’s “Light Sleeper”]]></title>
-            <description>Above: Kev Choice Ensemble reinterprets Saafir&amp;#8217;s &amp;#8220;Light Sleeper&amp;#8221; at  YBCA&amp;#8217;s Clas/Sick Hip Hop: 1993 Edition. Oakland-based artist Kev Choice is a pianist, MC, producer, bandleader, sideman, music historian and urban griot dedicated to cultural expression. Through his band Kev Choice Ensemble, he produces and performs his own material, including original jazz and classical compositions as well as classical, [&amp;#8230;]</description>
+            <description><![CDATA[Above: Kev Choice Ensemble reinterprets Saafir&#8217;s &#8220;Light Sleeper&#8221; at  YBCA&#8217;s Clas/Sick Hip Hop: 1993 Edition. Oakland-based artist Kev Choice is a pianist, MC, producer, bandleader, sideman, music historian and urban griot dedicated to cultural expression. Through his band Kev Choice Ensemble, he produces and performs his own material, including original jazz and classical compositions as well as classical, [&#8230;]]]></description>
             <link>http://ww2.kqed.org/arts/2014/12/24/a-jazz-hip-hop-funk-big-band-pays-homage-to-saafirs-light-sleeper/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10238610</guid>
             <dc:creator><![CDATA[Siouxsie Oki]]></dc:creator>
@@ -139,7 +138,7 @@
         </item>
         <item>
             <title><![CDATA[Jason McHenry and His Quest for One Million Paintings]]></title>
-            <description>Though the original intent was to make as much art as possible, the project somehow morphed into a goal of producing a seemingly preposterous number of paintings; now the mission of the &lt;em&gt;One Thousand Thousand&lt;/em&gt; project is to amass that amount with the help of friends.</description>
+            <description><![CDATA[Though the original intent was to make as much art as possible, the project somehow morphed into a goal of producing a seemingly preposterous number of paintings; now the mission of the <em>One Thousand Thousand</em> project is to amass that amount with the help of friends.]]></description>
             <link>http://ww2.kqed.org/arts/2014/12/24/jason-mchenry-and-his-quest-to-amass-one-million-paintings/</link>
             <guid isPermaLink="false">http://ww2.kqed.org/arts/?p=10218934</guid>
             <dc:creator><![CDATA[Brian Eder]]></dc:creator>
