@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/KQED/rss-braider.svg?branch=master)](https://travis-ci.org/KQED/rss-braider)
-[![Dependencies](https://david-dm.org/rKQED/rss-braider.svg?branch=master))](https://david-dm.org/KQED/rss-braider)
+[![Dependencies](https://david-dm.org/rKQED/rss-braider.svg?branch=master)](https://david-dm.org/KQED/rss-braider)
 
 
 ## Summary
