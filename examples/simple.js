@@ -33,8 +33,8 @@ var braider_options = {
 };
 var rss_braider = RssBraider.createClient(braider_options);
 
-// Set logging level (debug, info, warn, err, off)
-rss_braider.logger.level('off');
+// Set logging level (debug, info, warn, err)
+rss_braider.logger.level('info');
 
 rss_braider.processFeed('simple_test_feed', 'rss', function(err, data){
     if (err) {
