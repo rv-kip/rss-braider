@@ -10,7 +10,10 @@ Braid/aggregate one or more RSS feeds (file or url) into a single feed (RSS or J
 npm install rss-braider
 ```
 ## Test
-`npm test`
+```
+npm install
+npm test
+```
 
 ## Examples
 ```
