@@ -38,7 +38,7 @@
     "include-folder": "^1.0.0",
     "lodash": "^4.17.4",
     "request": "^2.57.0",
-    "rss": "1.2.0"
+    "rss": "^1.2.2"
   },
   "devDependencies": {
     "mockdate": "^2.0.1",
