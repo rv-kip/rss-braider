@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/KQED/rss-braider.svg?branch=master)](https://travis-ci.org/KQED/rss-braider)
-[![dependencies Status](https://david-dm.org/KQED/rss-braider/status.svg)](https://david-dm.org/KQED/rss-braider)
+[![Build Status](https://travis-ci.org/rv-kip/rss-braider.svg?branch=master)](https://travis-ci.org/rv-kip/rss-braider)
+[![dependencies Status](https://david-dm.org/rv-kip/rss-braider/status.svg)](https://david-dm.org/rv-kip/rss-braider)
 
 ## Summary
 Braid/aggregate one or more RSS feeds (file or url) into a single feed (RSS or JSON output). Process resulting feed through specified plugins. Automatic deduplication
