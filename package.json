@@ -32,16 +32,16 @@
   "author": "Kip Gebhardt <kgebhardt23@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.6.0",
-    "bunyan": "^2.0.2",
+    "async": "^2.6.1",
+    "bunyan": "^1.8.12",
     "feedparser": "^2.2.4",
     "include-folder": "^1.0.0",
-    "lodash": "^4.17.4",
-    "request": "2.81.0",
+    "lodash": "^4.17.10",
+    "request": "^2.87.0",
     "rss": "^1.2.2"
   },
   "devDependencies": {
     "mockdate": "^2.0.1",
-    "tape": "^4.0.0"
+    "tape": "^4.9.1"
   }
 }
